@@ -11,9 +11,9 @@
         <h1 class="text-5xl text-center mt-12">Lets get <span class="font-semibold text-violet-600">Some Moneyyyy!!</span></h1>
     </header>
 
-    <main> 
+    <main class="p-6 mt-10 w-3/4 mx-auto mb-8 rounded-lg bg-slate-500"> 
         <section class="mt-14"> 
-            <div class="grid grid-cols-3 gap-4  text-white w-9/12 mx-auto ">
+            <div class="grid grid-cols-1  md:grid-cols-3 gap-4  text-white w-9/12 mx-auto ">
                 <div class="bg-lime-500 p-6 rounded-xl">
                     <h4 class="text-3xl mb-2 ">Deposit</h4>
                     <h2  class="text-5xl">$<span id="deposit">00</span></h2>
@@ -31,11 +31,11 @@
 
         <!-- deposit and withdraw section  -->
 
-        <section class="mt-14">
-            <div class="grid grid-cols-2 gap-4   w-9/12 mx-auto ">
+        <section class="mt-14  mb-4">
+            <div class="grid grid-cols-1   md:grid-cols-2 gap-4   w-9/12 mx-auto ">
                 <div class="bg-blue-500 p-6 rounded-xl">
                     <h4 class="text-3xl mb-3 text-center text-white">Please Deposit</h4>
-                    <input id="deposit-field" type="text" placeholder="Enter deposit amount" class="w-3/4 p-2 block mb-3 mx-auto rounded-xl">
+                    <input id="deposit-field" type="text" placeholder="Enter deposit amount" class="w-full md:w-3/4 p-2 block mb-3 mx-auto rounded-xl">
                     <div class="flex justify-center mt-2">
                         <button id="btn-deposit" class="bg-orange-500 py-3 px-4 rounded-lg text-white text-lg hover:bg-orange-800 flex justify-center" >
                             Deposit
@@ -46,7 +46,7 @@
                 </div>
                 <div class="bg-cyan-500 p-6 rounded-xl">
                     <h4 class="text-3xl mb-3 text-center text-white">Please Withdraw</h4>
-                    <input id="withdraw-field" type="text" placeholder="Enter Withdraw amount" class="w-3/4 p-2 block mb-3 mx-auto rounded-xl"> 
+                    <input id="withdraw-field" type="text" placeholder= "Enter Withdraw amount" class="w-full md:w-3/4 p-2 block mb-3 mx-auto rounded-xl"> 
                     <div class="flex justify-center mt-2">
                         <button id="btn-withdraw" class="bg-lime-400 py-3 px-4 rounded-lg text-white text-lg hover:bg-orange-800 flex justify-center" >
                             Withdraw
